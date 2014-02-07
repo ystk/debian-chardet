@@ -1,3 +1,14 @@
+chardet (2.0.1-2) unstable; urgency=low
+
+  [ Barry Warsaw ]
+  * Switch to dh_python2, closes: 634313, LP: #788514
+
+  [ Piotr Ożarowski ]
+  * Bump Standards-Version to 3.9.2 (no changes needed)
+  * Source format changed to 3.0 (quilt)
+
+ -- Piotr Ożarowski <piotr@debian.org>  Wed, 20 Jul 2011 22:28:12 +0200
+
 chardet (2.0.1-1) unstable; urgency=low
 
   [ Sandro Tosi ]
