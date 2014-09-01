@@ -1,3 +1,64 @@
+chardet (2.2.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * d/control:
+    - Add python3-wheel to Build-Depends.
+    - Add python-chardet-whl binary package.
+    - Clean up whitespace.
+  * d/rules: 
+    - Build the universal wheels.
+    - Override dh_python3 to set the shebang line to /usr/bin/python3
+      (Closes: #741340)
+  * d/python-chardet-whl.install: Added.
+
+ -- Barry Warsaw <barry@debian.org>  Thu, 15 May 2014 16:14:49 -0400
+
+chardet (2.2.1-1) unstable; urgency=medium
+
+  [ Jakub Wilk ]
+  * Use canonical URIs for Vcs-* fields.
+
+  [ Daniele Tricoli ]
+  * New upstream release
+  * Switched to pybuild
+  * Builded Python3 package
+  * Removed embedded chardet CLI script since upstream is providing it
+  * Moved documentation into python-chardet-doc and registered it using
+    doc-base
+  * debian/clean
+    - Clean debian/chardet3.1 manpage
+  * debian/compat
+    - Bumped debhelper compatibility level to 9
+  * debian/control
+    - Added myself to Uploaders with Piotr Ożarowski's permission
+    - Added python3-all and python(3)-setuptools to B-D
+    - Switched to python-all in B-D
+    - Added stanza for python3-chardet
+    - Bumped debhelper B-D to (>= 9)
+    - Updated Homepage
+    - Added X-Python-Version: >= 2.6
+    - Bumped Standards-Version to 3.9.5 (no changes needed)
+    - Added python(3)-pkg-resources to Depends
+  * debian/copyright
+    - Made DEP5 compliant
+  * debian/python(3)-chardet.links
+    - Added chardet(3) symlinks to preserve old CLI script name
+    - Added symlinks for manpages
+  * debian/python(3)-chardet.manpages
+    - Installed manpages
+  * debian/rules
+    - Added export PYTHONWARNINGS=d
+    - Renamed chardetect CLI script to chardetect3 for python3-chardet
+    - Copied debian/chardet.1 into debian/chardet3.1 and changed occurences
+      of chardet to chardet3
+  * debian/watch
+    - Updated to new source code URI
+
+  [ Piotr Ożarowski ]
+  * drop preinst file, python-central is no longer available in Debian
+
+ -- Piotr Ożarowski <piotr@debian.org>  Mon, 17 Feb 2014 22:17:37 +0100
+
 chardet (2.0.1-2) unstable; urgency=low
 
   [ Barry Warsaw ]

@@ -1,2 +1,2 @@
 version=3
-http://chardet.feedparser.org/download/ python2-chardet-([\d.]+)\.tgz
+https://pypi.python.org/packages/source/c/chardet/chardet-([\d.]+)\.tar\.gz 
