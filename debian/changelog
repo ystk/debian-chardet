@@ -1,3 +1,18 @@
+chardet (2.3.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Remove python-chardet-doc package since upstream is not shipping
+    documentation anymore.
+  * debian/control
+    - Remove stanza for python-chardet-doc.
+    - Bump Standards-Version to 3.9.6 (no changes needed).
+  * debian/copyright
+    - Remove stanza for documentation.
+  * debian/python-chardet-doc{s,.doc-base}
+    - Remove since not needed anymore.
+
+ -- Daniele Tricoli <eriol@mornie.org>  Sat, 18 Oct 2014 02:56:10 +0200
+
 chardet (2.2.1-2) unstable; urgency=medium
 
   * Team upload.

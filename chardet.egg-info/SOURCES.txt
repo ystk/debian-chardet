@@ -46,17 +46,3 @@ chardet.egg-info/SOURCES.txt
 chardet.egg-info/dependency_links.txt
 chardet.egg-info/entry_points.txt
 chardet.egg-info/top_level.txt
-docs/faq.html
-docs/history.html
-docs/how-it-works.html
-docs/index.html
-docs/license.html
-docs/supported-encodings.html
-docs/usage.html
-docs/css/chardet.css
-docs/images/caution.png
-docs/images/important.png
-docs/images/note.png
-docs/images/permalink.gif
-docs/images/tip.png
-docs/images/warning.png
